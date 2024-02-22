@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple_discord">#836FFF</color>
+    <color name="purple_discord_dark">#583FF4</color>
+    <color name="dark_white">#D9D9D9</color>
 </resources>
