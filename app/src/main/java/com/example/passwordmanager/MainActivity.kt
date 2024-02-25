@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val etTextToCopy:TextView=findViewById(R.id.textView_generatedPassword)
 
         binding.buttonGenerate.setOnClickListener {
-            val generatedPassword = binding.textViewGeneratedPassword.setText(Services.generatePassword())
+            binding.textViewGeneratedPassword.setText(Services.generatePassword())
         }
 
         binding.buttonCopy.setOnClickListener {
