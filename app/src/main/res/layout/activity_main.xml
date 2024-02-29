@@ -24,15 +24,14 @@
         android:background="@drawable/custom_button"
         android:text="Generate"
         android:textAllCaps="false"
-        android:textSize="14sp"
         android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#847272"
-        app:strokeColor="#D51818"
-        />
+        app:strokeColor="#D51818" />
 
     <Button
         android:id="@+id/button_copy"
@@ -46,5 +45,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_generate" />
+
+    <Button
+        android:id="@+id/button_my_passwords"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:text="My Passwords"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_copy" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

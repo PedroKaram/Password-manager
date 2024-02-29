@@ -3,6 +3,7 @@ package com.example.passwordmanager
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
@@ -34,6 +35,11 @@ class MainActivity : AppCompatActivity() {
             clipboardManager.setPrimaryClip(clipData)
 
             Toast.makeText(this, "Copied", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.buttonMyPasswords.setOnClickListener {
+            val i = Intent(this, MyPasswordsActivity::class.java)
+            startActivity(i)
         }
     }
 }

@@ -13,8 +13,11 @@
         android:theme="@style/Theme.PasswordManager"
         tools:targetApi="31">
         <activity
+            android:name=".MyPasswordsActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
