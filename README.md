@@ -12,3 +12,16 @@ At the login screen I set up a global user:
 username: user
 password: pass
 ```
+
+## Intended Updates by level of importance
+## Highly Important
+
+- Add feature to register a new password
+- Show passwords list on `MyPasswordsActivity`
+- - Create local database to save user's passwords
+- Encrypt passwords before sending to database
+- Ask phone's password to show the selected password
+
+## Not Important for now
+
+- Learn a frontend framework to make it prettier
