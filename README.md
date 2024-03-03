@@ -18,7 +18,7 @@ password: pass
 
 - Add feature to register a new password
 - Show passwords list on `MyPasswordsActivity`
-- - Create local database to save user's passwords
+- Create local database to save user's passwords
 - Encrypt passwords before sending to database
 - Ask phone's password to show the selected password
 
